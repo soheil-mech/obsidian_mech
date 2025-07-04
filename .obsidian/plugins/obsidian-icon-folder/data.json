@@ -1,9 +1,9 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
       "LiListTodo",
@@ -22,7 +22,17 @@
     },
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "Daily Notes": "FarPenToSquare",
   "Presentations": "LiScreenShare",
