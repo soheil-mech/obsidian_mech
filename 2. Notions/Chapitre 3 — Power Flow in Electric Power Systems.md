@@ -113,8 +113,60 @@ où $I_i^*$ est le conjugué complexe du courant.
 
 # 5. Équations de puissance
 
+En utilisant :
 
----
+$$  
+I=Y_{\text{bus}}V  
+$$
+
+on peut obtenir les équations de puissance active et réactive.
+
+Pour le bus $i$ :
+
+$$  
+\boxed{  
+P_i =  
+\sum_{j=1}^{n}  
+V_iV_j  
+\left(  
+G_{ij}\cos(\theta_i-\theta_j)  
++  
+B_{ij}\sin(\theta_i-\theta_j)  
+\right)  
+}  
+$$
+
+et :
+
+B_{ij}\cos(\theta_i-\theta_j)  
+\right)  
+}  
+
+
+
+où :
+
+- $G_{ij}$ : partie réelle de $Y_{ij}$ ;
+- $B_{ij}$ : partie imaginaire de $Y_{ij}$ ;
+- $V_i,V_j$ : modules des tensions ;
+- $\theta_i,\theta_j$ : angles des tensions.
+
+> **À retenir :** les puissances $P_i$ et $Q_i$ dépendent des tensions $V$ et des angles $\theta$.
+
+On peut donc écrire de manière simplifiée :
+
+$$  
+\boxed{  
+P_i=f_i(V,\theta)  
+}  
+$$
+
+$$  
+\boxed{  
+Q_i=g_i(V,\theta)  
+}  
+$$
+
 
 # 6. Flux de puissance sur une ligne
 
