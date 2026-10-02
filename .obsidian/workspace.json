@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notions/Chapitre 1 State Estimation in Electric Power Systems.md",
+                "file": "2. Notions/Chapitre 3 — Power Flow in Electric Power Systems.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapitre 1 State Estimation in Electric Power Systems"
+              "title": "Chapitre 3 — Power Flow in Electric Power Systems"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "dbb38594208b7906",
   "lastOpenFiles": [
-    "2. Notions/Sans titre.md",
     "2. Notions/Chapitre 1 State Estimation in Electric Power Systems.md",
+    "2. Notions/Chapitre 3 — Power Flow in Electric Power Systems.md",
     "Daily Notes/2026-10-02.md",
     "1. Source Notes/@sportisseImputationLowrankEstimation2020.md",
     "Reading List.md",
