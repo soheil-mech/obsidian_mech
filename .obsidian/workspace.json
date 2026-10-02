@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78523e9e244d2a9e",
+        "id": "3778c11c715d784e",
         "type": "tabs",
         "children": [
           {
-            "id": "1a3a8de80a32a697",
+            "id": "dbb38594208b7906",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,20 +204,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a3a8de80a32a697",
+  "active": "dbb38594208b7906",
   "lastOpenFiles": [
-    "Reading List.md",
-    "1. Source Notes/@sportisseImputationLowrankEstimation2020.md",
+    "Dailies.md",
     "Daily Notes/2025-07-10.md",
     "Daily Notes/2025-07-09.md",
     "Daily Notes/2025-07-08.md",
     "Daily Notes/2025-07-07.md",
     "Daily Notes/2025-07-06.md",
     "Daily Notes/2025-07-05.md",
-    "Meetings.md",
-    "Dailies.md",
-    "TODOs.md",
     "Stats.md",
+    "TODOs.md",
+    "Reading List.md",
+    "1. Source Notes/@sportisseImputationLowrankEstimation2020.md",
+    "Meetings.md",
     "README.md",
     "_taskido/demo_file.md",
     "3. Thoughts/Idea 1.md",
