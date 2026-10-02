@@ -86,7 +86,11 @@ Chaque élément $Y_{ij}$ représente une admittance associée au réseau.
 
 La puissance complexe injectée au bus $i$ est :
 
-Si=Pi+jQi\boxed{ S_i=P_i+jQ_i }
+$$  
+\boxed{  
+S_i=P_i+jQ_i  
+}  
+$$
 
 où :
 
@@ -97,7 +101,11 @@ où :
 
 La relation entre puissance, tension et courant est :
 
-Si=ViIi∗\boxed{ S_i=V_i I_i^* }
+$$  
+\boxed{  
+S_i=V_i I_i^*  
+}  
+$$
 
 où $I_i^*$ est le conjugué complexe du courant.
 
