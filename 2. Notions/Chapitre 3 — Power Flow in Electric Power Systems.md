@@ -37,14 +37,14 @@ $$
 $$
 
 ou sous forme rectangulaire :
-
-Vi‾=Vi(cos⁡θi+jsin⁡θi)\underline{V_i} = V_i(\cos\theta_i+j\sin\theta_i)
-
+$$
+\underline{V_i} = V_i(\cos\theta_i+j\sin\theta_i)
+$$
 où :
 
-- $V_i$ : module de la tension ;
+- $V_i$ : module de la tension (par exemple 230 volts) ;
     
-- $\theta_i$ : angle de la tension ;
+- $\theta_i$ : angle de la tension ( par exemple 30 degrés) ;
     
 - $j=\sqrt{-1}$.
     
