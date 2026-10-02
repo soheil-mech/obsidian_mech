@@ -1,8 +1,14 @@
 ---
 category: notion-note
 ---
-> [!tldr] Summary
-> .
+> [!tldr] Résumé
+> - **Qu'est-ce que je cherche ?** → $x$ (état du réseau)
+> - **Qu'est-ce que je mesure ?** → $z$ (mesure réelle)
+> - Comment les deux sont-ils reliés ? → $h(x)$  (relation physique entre les 2)
+> - $z = h(x) + e$
+
+
+> 
 
 
 > ## 1. Objectif de l'estimation d'état
