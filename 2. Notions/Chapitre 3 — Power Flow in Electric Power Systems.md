@@ -57,7 +57,11 @@ Les variables $V_i$ et $\theta_i$ sont particulièrement importantes car elles c
 
 Le réseau électrique peut être représenté à l'aide de la **matrice d'admittance nodale**, appelée matrice $Y_{\text{bus}}$ :
 
-I=YbusV\boxed{ I=Y_{\text{bus}}V }
+$$  
+\boxed{  
+I=Y_{\text{bus}}V  
+}  
+$$
 
 où :
 
@@ -70,7 +74,19 @@ où :
 
 Pour un réseau comportant $n$ bus :
 
-[I1I2⋮In]=[Y11Y12⋯Y1nY21Y22⋯Y2n⋮⋮⋱⋮Yn1Yn2⋯Ynn][V1V2⋮Vn]\begin{bmatrix} I_1\\ I_2\\ \vdots\\ I_n \end{bmatrix} = \begin{bmatrix} Y_{11}&Y_{12}&\cdots&Y_{1n}\\ Y_{21}&Y_{22}&\cdots&Y_{2n}\\ \vdots&\vdots&\ddots&\vdots\\ Y_{n1}&Y_{n2}&\cdots&Y_{nn} \end{bmatrix} \begin{bmatrix} V_1\\ V_2\\ \vdots\\ V_n \end{bmatrix}
+$$\begin{bmatrix}  
+Y_{11}&Y_{12}&\cdots&Y_{1n}\  
+Y_{21}&Y_{22}&\cdots&Y_{2n}\  
+\vdots&\vdots&\ddots&\vdots\  
+Y_{n1}&Y_{n2}&\cdots&Y_{nn}  
+\end{bmatrix}  
+\begin{bmatrix}  
+V_1\  
+V_2\  
+\vdots\  
+V_n  
+\end{bmatrix}  
+$$
 
 Chaque élément $Y_{ij}$ représente une admittance associée au réseau.
 
