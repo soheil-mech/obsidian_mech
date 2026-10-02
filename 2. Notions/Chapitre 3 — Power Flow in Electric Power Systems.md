@@ -169,16 +169,24 @@ $$
 Pour une ligne reliant deux bus $i$ et $j$, on peut également calculer les puissances qui circulent sur la ligne.
 
 On note généralement :
-
+$$
 Pij,QijP_{ij},\quad Q_{ij}
-
+$$
 pour le flux allant du bus $i$ vers le bus $j$.
 
 Ces grandeurs dépendent notamment des tensions aux deux extrémités de la ligne :
 
-Pij=f(Vi,Vj,θi,θj)P_{ij}=f(V_i,V_j,\theta_i,\theta_j) Qij=g(Vi,Vj,θi,θj)Q_{ij}=g(V_i,V_j,\theta_i,\theta_j)
+$$
+P_{ij}=f(V_i,V_j,\theta_i,\theta_j)
+$$et aussi : 
+
+$$
+Q_{ij}=g(V_i,V_j,\theta_i,\theta_j)
+$$
+
 
 Ces mesures de flux peuvent ensuite être utilisées par l'estimateur d'état.
+
 
 ---
 
