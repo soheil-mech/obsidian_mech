@@ -115,34 +115,56 @@ où $I_i^*$ est le conjugué complexe du courant.
 
 En utilisant :
 
-I=YbusVI=Y_{\text{bus}}V
+$$  
+I=Y_{\text{bus}}V  
+$$
 
 on peut obtenir les équations de puissance active et réactive.
 
 Pour le bus $i$ :
 
-Pi=∑j=1nViVj(Gijcos⁡(θi−θj)+Bijsin⁡(θi−θj))\boxed{ P_i = \sum_{j=1}^{n} V_iV_j \left( G_{ij}\cos(\theta_i-\theta_j) + B_{ij}\sin(\theta_i-\theta_j) \right) }
+$$  
+\boxed{  
+P_i =  
+\sum_{j=1}^{n}  
+V_iV_j  
+\left(  
+G_{ij}\cos(\theta_i-\theta_j)  
++  
+B_{ij}\sin(\theta_i-\theta_j)  
+\right)  
+}  
+$$
 
 et :
 
-Qi=∑j=1nViVj(Gijsin⁡(θi−θj)−Bijcos⁡(θi−θj))\boxed{ Q_i = \sum_{j=1}^{n} V_iV_j \left( G_{ij}\sin(\theta_i-\theta_j) - B_{ij}\cos(\theta_i-\theta_j) \right) }
+B_{ij}\cos(\theta_i-\theta_j)  
+\right)  
+}  
+$$
 
 où :
 
 - $G_{ij}$ : partie réelle de $Y_{ij}$ ;
-    
 - $B_{ij}$ : partie imaginaire de $Y_{ij}$ ;
-    
 - $V_i,V_j$ : modules des tensions ;
-    
 - $\theta_i,\theta_j$ : angles des tensions.
-    
 
 > **À retenir :** les puissances $P_i$ et $Q_i$ dépendent des tensions $V$ et des angles $\theta$.
 
 On peut donc écrire de manière simplifiée :
 
-Pi=fi(V,θ)\boxed{ P_i=f_i(V,\theta) } Qi=gi(V,θ)\boxed{ Q_i=g_i(V,\theta) }
+$$  
+\boxed{  
+P_i=f_i(V,\theta)  
+}  
+$$
+
+$$  
+\boxed{  
+Q_i=g_i(V,\theta)  
+}  
+$$
 
 ---
 
