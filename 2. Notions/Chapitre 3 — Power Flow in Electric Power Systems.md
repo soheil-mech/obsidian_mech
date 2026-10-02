@@ -187,11 +187,11 @@ Dans l'étude des réseaux électriques, les bus sont généralement classés en
 
 Les puissances active et réactive sont connues :
 
-Pi=connueP_i=\text{connue} Qi=connueQ_i=\text{connue}
+$$P_i=\text{connue}, Q_i=\text{connue}$$
 
 Les inconnues sont généralement :
 
-Vi,θiV_i,\quad\theta_i
+$$Vi,θiV_i,\quad,\theta_i$$
 
 ---
 
