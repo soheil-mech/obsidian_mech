@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notions/Etat d'un réseau.md",
+                "file": "2. Notions/State Estimation in Electric Power Systems.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Etat d'un réseau"
+              "title": "State Estimation in Electric Power Systems"
             }
           }
         ]
@@ -207,7 +207,7 @@
   "active": "dbb38594208b7906",
   "lastOpenFiles": [
     "Daily Notes/2026-10-02.md",
-    "2. Notions/Etat d'un réseau.md",
+    "2. Notions/State Estimation in Electric Power Systems.md",
     "1. Source Notes/@sportisseImputationLowrankEstimation2020.md",
     "Reading List.md",
     "Meetings.md",
