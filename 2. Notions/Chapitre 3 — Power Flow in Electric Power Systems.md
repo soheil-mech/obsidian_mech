@@ -191,7 +191,7 @@ $$P_i=\text{connue}, Q_i=\text{connue}$$
 
 Les inconnues sont généralement :
 
-$$Vi,θiV_i,\quad,\theta_i$$
+$$Vi,θi,V_i,\theta_i$$
 
 ---
 
