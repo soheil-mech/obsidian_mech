@@ -74,7 +74,8 @@ où :
 
 Pour un réseau comportant $n$ bus :
 
-$$\begin{bmatrix}  
+$$
+\begin{bmatrix}  
 Y_{11}&Y_{12}&\cdots&Y_{1n}\  
 Y_{21}&Y_{22}&\cdots&Y_{2n}\  
 \vdots&\vdots&\ddots&\vdots\  
