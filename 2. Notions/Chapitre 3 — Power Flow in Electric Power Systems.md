@@ -138,11 +138,7 @@ $$
 
 et :
 
-B_{ij}\cos(\theta_i-\theta_j)  
-\right)  
-}  
-
-
+$$ \boxed{ Q_i = \sum_{j=1}^{n} V_iV_j \left[ G_{ij}\sin(\theta_i-\theta_j) - B_{ij}\cos(\theta_i-\theta_j) \right] } $$
 
 où :
 
