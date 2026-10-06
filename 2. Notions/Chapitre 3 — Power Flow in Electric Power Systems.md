@@ -393,25 +393,9 @@ $$
 }  
 $$
 
-### Matrice d'admittance
+### Matrice d'admittance $$ \mathbf{I} = \mathbf{Y}_{\mathrm{bus}}\mathbf{V} $$ Puissance complexe $$ \underline{S_i} = P_i+jQ_i $$ Puissance complexe et courant 
 
-$\mathbf{Y}_{\mathrm{bus}}\mathbf{V}  
-}  
-$$
-
-### Puissance complexe
-
-$$  
-\boxed{  
-\underline{S_i}=P_i+jQ_i  
-}  
-$$
-
-### Puissance complexe et courant
-
-\underline{V_i},\underline{I_i}^{,*}  
-}  
-$$
+$$ \underline{S_i} = \underline{V_i}\,\underline{I_i}^{\,*} $$
 
 ### Puissance active
 
@@ -428,21 +412,12 @@ B_{ij}\sin(\theta_i-\theta_j)
 }  
 $$
 
-### Puissance réactive
+### Puissance réactive 
 
-B_{ij}\cos(\theta_i-\theta_j)  
-\right]  
-}  
+
+$$ 
+\boxed{ Q_i = \sum_{j=1}^{n} V_i V_j \left[ G_{ij}\sin(\theta_i-\theta_j) - B_{ij}\cos(\theta_i-\theta_j) \right] } 
 $$
-
-### Équation fondamentale de l'estimation
-
-\mathbf{h}(\mathbf{x})  
-+  
-\mathbf{e}  
-}  
-$$
-
 ---
 
 # 🧠 Résumé en une phrase
