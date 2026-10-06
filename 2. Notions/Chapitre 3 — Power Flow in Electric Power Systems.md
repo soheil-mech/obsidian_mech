@@ -229,7 +229,7 @@ Les angles de tension sont relatifs.
 
 Si on ajoute la même constante à tous les angles, les différences :
 
-$$\theta_i-\theta_j
+$$\theta_i-\theta_j$$
 
 restent identiques.
 
@@ -237,7 +237,7 @@ Or les équations de puissance dépendent principalement de ces différences d'a
 
 Il faut donc choisir une référence :
 
-θref=0\boxed{\theta_{\text{ref}}=0}
+$$\theta_{\text{ref}}=0$$
 
 Les autres angles sont alors exprimés par rapport à cette référence.
 
@@ -249,27 +249,41 @@ C'est probablement la partie la plus importante pour ton étude.
 
 Dans le chapitre 1, nous avons vu :
 
-z=h(x)+e\boxed{ z=h(x)+e }
+$$z=h(x)+e$$
 
 Le chapitre 3 nous permet maintenant de comprendre ce qu'est réellement la fonction $h(x)$.
 
 Par exemple, si l'état est :
 
-x=[θ1θ2V1V2]x= \begin{bmatrix} \theta_1\\ \theta_2\\ V_1\\ V_2 \end{bmatrix}
+$$  
+\mathbf{x} =  
+\begin{bmatrix}  
+\theta_1 \  
+\theta_2 \  
+V_1 \  
+V_2  
+\end{bmatrix}  
+$$
 
 une mesure de puissance active peut être écrite :
 
-zk=Pi=hi(x)+ekz_k=P_i=h_i(x)+e_k
+$$  
+z_k = P_i = h_i(\mathbf{x}) + e_k  
+$$
 
 Une mesure de tension peut simplement être :
 
-zk=Vi+ekz_k=V_i+e_k
+$$  
+z_k = V_i + e_k  
+$$
 
 Une mesure de puissance réactive peut être :
 
-zk=Qi+ekz_k=Q_i+e_k
+$$  
+z_k = Q_i + e_k  
+$$
 
-Ainsi, différentes mesures correspondent à différentes fonctions $h_i(x)$.
+Ainsi, différentes mesures correspondent à différentes fonctions $h_i(\mathbf{x})$.
 
 ---
 
@@ -279,19 +293,47 @@ Supposons un réseau avec trois bus.
 
 Le vecteur d'état peut être :
 
-x=[θ1θ2θ3V1V2V3]x= \begin{bmatrix} \theta_1\\ \theta_2\\ \theta_3\\ V_1\\ V_2\\ V_3 \end{bmatrix}
+$$  
+\mathbf{x} =  
+\begin{bmatrix}  
+\theta_1 \  
+\theta_2 \  
+\theta_3 \  
+V_1 \  
+V_2 \  
+V_3  
+\end{bmatrix}  
+$$
 
 On dispose par exemple des mesures :
 
-z=[P1P2Q1V2]z= \begin{bmatrix} P_1\\ P_2\\ Q_1\\ V_2 \end{bmatrix}
+$$  
+\mathbf{z} =  
+\begin{bmatrix}  
+P_1 \  
+P_2 \  
+Q_1 \  
+V_2  
+\end{bmatrix}  
+$$
 
-On peut alors écrire :
+On peut alors écrire le modèle de mesure :
 
-z=h(x)+ez=h(x)+e
+$$  
+\mathbf{z} = \mathbf{h}(\mathbf{x}) + \mathbf{e}  
+$$
 
 avec :
 
-h(x)=[P1(x)P2(x)Q1(x)V2]h(x)= \begin{bmatrix} P_1(x)\\ P_2(x)\\ Q_1(x)\\ V_2 \end{bmatrix}
+$$  
+\mathbf{h}(\mathbf{x}) =  
+\begin{bmatrix}  
+P_1(\mathbf{x}) \  
+P_2(\mathbf{x}) \  
+Q_1(\mathbf{x}) \  
+V_2  
+\end{bmatrix}  
+$$
 
 Chaque puissance $P_i$ ou $Q_i$ est calculée à partir des équations du réseau.
 
@@ -303,7 +345,15 @@ Le chapitre 3 prépare directement le chapitre 4.
 
 Nous avons maintenant :
 
-x→h(x)→z\boxed{x\rightarrow h(x)\rightarrow z}
+$$  
+\boxed{  
+\mathbf{x}  
+\longrightarrow  
+\mathbf{h}(\mathbf{x})  
+\longrightarrow  
+\mathbf{z}  
+}  
+$$
 
 c'est-à-dire :
 
@@ -319,9 +369,15 @@ c'est-à-dire :
 
 Le problème de l'estimation d'état consiste ensuite à faire le chemin inverse :
 
-z→x^\boxed{z\rightarrow\hat{x}}
+$$  
+\boxed{  
+\mathbf{z}  
+\longrightarrow  
+\hat{\mathbf{x}}  
+}  
+$$
 
-À partir des mesures $z$, on cherche à retrouver l'état estimé $\hat{x}$.
+À partir des mesures $\mathbf{z}$, on cherche à retrouver l'état estimé $\hat{\mathbf{x}}$.
 
 Comme les mesures contiennent des erreurs, on ne peut généralement pas résoudre simplement les équations. C'est pour cela que l'on introduit ensuite la méthode **WLS (Weighted Least Squares)**.
 
