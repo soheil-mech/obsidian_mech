@@ -1,20 +1,20 @@
 ---
 category: notion-note
 ---
-````
+
 ## Réseau électrique à 3 bus
 
 ```mermaid
 flowchart LR
+    B1["BUS 1<br>V₁ ∠ θ₁<br>P₁, Q₁"]
+    B2["BUS 2<br>V₂ ∠ θ₂<br>P₂, Q₂"]
+    B3["BUS 3<br>V₃ ∠ θ₃<br>P₃, Q₃"]
 
-    B1["BUS 1<br/>V₁ ∠ θ₁<br/>P₁, Q₁"]
-    B2["BUS 2<br/>V₂ ∠ θ₂<br/>P₂, Q₂"]
-    B3["BUS 3<br/>V₃ ∠ θ₃<br/>P₃, Q₃"]
+    B1 -->|"I₁₂ - Y₁₂"| B2
+    B1 -->|"I₁₃ - Y₁₃"| B3
+    B2 -->|"I₂₃ - Y₂₃"| B3
+```
 
-    B1 -->|"I₁₂<br/>Y₁₂ = G₁₂ + jB₁₂"| B2
-    B1 -->|"I₁₃<br/>Y₁₃ = G₁₃ + jB₁₃"| B3
-    B2 -->|"I₂₃<br/>Y₂₃ = G₂₃ + jB₂₃"| B3
-````
 
 ### Vecteur d'état
 $$
