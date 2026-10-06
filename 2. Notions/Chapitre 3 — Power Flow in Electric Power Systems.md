@@ -199,11 +199,11 @@ $$Vi,θi,V_i,\theta_i$$
 
 La puissance active et le module de tension sont connus :
 
-Pi=connueP_i=\text{connue} Vi=connueV_i=\text{connue}
+$$P_i=\text{connue},V_i=\text{connue}$$
 
 Les inconnues sont généralement :
 
-Qi,θiQ_i,\quad\theta_i
+$$Q_i,\quad\theta_i$$
 
 ---
 
@@ -213,13 +213,13 @@ Le bus slack (ou bus de référence) fixe la référence du système.
 
 On connaît :
 
-Vi=connueV_i=\text{connue} θi=connue\theta_i=\text{connue}
+$$V_i=\text{connue}, \theta_i=\text{connue}$$
 
 Le bus slack permet notamment de fixer la référence de l'angle de phase.
 
 Généralement :
 
-θslack=0\boxed{\theta_{\text{slack}}=0}
+$$\boxed{\theta_{\text{slack}}=0}$$
 
 ---
 
@@ -229,7 +229,7 @@ Les angles de tension sont relatifs.
 
 Si on ajoute la même constante à tous les angles, les différences :
 
-θi−θj\theta_i-\theta_j
+$$\theta_i-\theta_j
 
 restent identiques.
 
