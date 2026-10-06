@@ -385,37 +385,63 @@ Comme les mesures contiennent des erreurs, on ne peut généralement pas résoud
 
 # ⭐ À retenir absolument
 
-### Tension complexe
+## Tension complexe
 
-Vi‾=Viejθi\boxed{ \underline{V_i}=V_i e^{j\theta_i} }
+$$  
+\boxed{  
+\underline{V_i}=V_i e^{j\theta_i}  
+}  
+$$
 
 ### Matrice d'admittance
 
-I=YbusV\boxed{ I=Y_{\text{bus}}V }
+$\mathbf{Y}_{\mathrm{bus}}\mathbf{V}  
+}  
+$$
 
 ### Puissance complexe
 
-Si=Pi+jQi\boxed{ S_i=P_i+jQ_i }
+$$  
+\boxed{  
+\underline{S_i}=P_i+jQ_i  
+}  
+$$
 
 ### Puissance complexe et courant
 
-Si=ViIi∗\boxed{ S_i=V_iI_i^* }
+\underline{V_i},\underline{I_i}^{,*}  
+}  
+$$
 
 ### Puissance active
 
-Pi=∑j=1nViVj[Gijcos⁡(θi−θj)+Bijsin⁡(θi−θj)]\boxed{ P_i = \sum_{j=1}^{n} V_iV_j \left[ G_{ij}\cos(\theta_i-\theta_j) + B_{ij}\sin(\theta_i-\theta_j) \right] }
+$$  
+\boxed{  
+P_i=  
+\sum_{j=1}^{n}  
+V_iV_j  
+\left[  
+G_{ij}\cos(\theta_i-\theta_j)  
++  
+B_{ij}\sin(\theta_i-\theta_j)  
+\right]  
+}  
+$$
 
 ### Puissance réactive
 
-Qi=∑j=1nViVj[Gijsin⁡(θi−θj)−Bijcos⁡(θi−θj)]\boxed{ Q_i = \sum_{j=1}^{n} V_iV_j \left[ G_{ij}\sin(\theta_i-\theta_j) - B_{ij}\cos(\theta_i-\theta_j) \right] }
+B_{ij}\cos(\theta_i-\theta_j)  
+\right]  
+}  
+$$
 
 ### Équation fondamentale de l'estimation
 
-z=h(x)+e\boxed{ z=h(x)+e }
-
-### Idée fondamentale
-
-> **Les équations du power flow permettent de relier les variables d'état $V$ et $\theta$ aux grandeurs mesurées $P$, $Q$ et $V$. Ces relations constituent la fonction $h(x)$ utilisée par l'estimateur d'état.**
+\mathbf{h}(\mathbf{x})  
++  
+\mathbf{e}  
+}  
+$$
 
 ---
 
