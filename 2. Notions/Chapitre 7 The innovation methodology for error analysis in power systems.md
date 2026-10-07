@@ -129,22 +129,9 @@ $$
 }
 $$
 
-Le résumé dit quelque chose de très précis :
+L'Innovation Index sert notamment à **caractériser les mesures selon leur capacité à masquer leurs propres erreurs**.
 
-> the II classifies measurements according to their characteristics of “masking” their errors.
 
-Donc l'Innovation Index sert notamment à **caractériser les mesures selon leur capacité à masquer leurs propres erreurs**.
-
-Ce n'est donc pas simplement :
-
-$$
-II_i=
-\frac{\text{innovation}}{\text{incertitude}}
-$$
-
-comme je te l'avais présenté précédemment.
-
-👉 **Cette formule/interprétation que je t'ai donnée précédemment ne correspondait pas correctement au chapitre de ton livre.**
 
 
 # 6. L'idée intuitive de l'Innovation Index
