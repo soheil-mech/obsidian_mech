@@ -33,9 +33,8 @@ Un réseau est **observable** si les mesures disponibles contiennent suffisammen
 
 On peut résumer :
 $$
-\text{possibilite de déterminer } \mathbf{x}  
-\text{ à partir de } \mathbf{z}  
-}  
+\text{possibilité de déterminer } \mathbf{x}  
+\text{ à partir de } \mathbf{z}
 $$
 
 L'objectif est donc de pouvoir passer de :
@@ -52,6 +51,7 @@ $$
 
 Supposons que l'état soit :
 
+$$
 \begin{bmatrix}  
 \theta_1\  
 \theta_2\  
@@ -62,6 +62,7 @@ $$
 
 On dispose de plusieurs mesures :
 
+$$
 \begin{bmatrix}  
 P_1\  
 Q_1\  
@@ -73,7 +74,7 @@ $$
 Ces mesures peuvent fournir suffisamment d'informations pour déterminer les variables de $\mathbf{x}$.
 
 À l'inverse, avec seulement :
-
+$$
 \begin{bmatrix}  
 P_1  
 \end{bmatrix}  
