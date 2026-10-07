@@ -103,6 +103,7 @@ On définit le résidu :
 
  
 $$
+r = 
 \mathbf{z}
 -
 \mathbf{h}(\hat{\mathbf{x}})  
@@ -117,7 +118,7 @@ où :
 
 Pour une mesure particulière :
 $$
-z_i-h_i(\hat{\mathbf{x}})  
+r_{i}= z_i-h_i(\hat{\mathbf{x}})  
 $$
 ### Interprétation
 
@@ -135,28 +136,19 @@ $$
 
 elle peut être **suspecte** et contenir une gross error.
 
-### Exemple
 
-Si la mesure réelle est :
+## 6. Détection des gross errors
 
-$$  
-z_i=100  
-$$
+Une première idée est donc de regarder si le résidu est suffisamment grand.
 
-et que l'estimation prédit :
+On compare le résidu à un seuil.
 
-$$  
-h_i(\hat{\mathbf{x}})=98  
-$$
-
-alors :
+Conceptuellement :
 
 $$  
-r_i=100-98=2  
+|r_i| > \text{seuil}  
 $$
 
-Le résidu est donc :
+peut indiquer une mesure suspecte.
 
-$$  
-\boxed{r_i=2}  
-$$
+Mais les résidus doivent généralement être **normalisés**, car les mesures n'ont pas toutes la même variance.

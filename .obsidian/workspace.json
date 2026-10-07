@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Notions/Chapitre 6 Gross Errors Processing in measurements.md",
+                "file": "2. Notions/Chapitre 7 The innovation methodology for error analysis in power systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapitre 6 Gross Errors Processing in measurements"
+              "title": "Chapitre 7 The innovation methodology for error analysis in power systems"
             }
           }
         ]
@@ -206,8 +206,9 @@
   },
   "active": "5dd7fd41f80f0792",
   "lastOpenFiles": [
-    "2. Notions/Chapitre 5 Qualitative Characteristics of Measurement Sets.md",
     "2. Notions/Chapitre 6 Gross Errors Processing in measurements.md",
+    "2. Notions/Chapitre 7 The innovation methodology for error analysis in power systems.md",
+    "2. Notions/Chapitre 5 Qualitative Characteristics of Measurement Sets.md",
     "2. Notions/Chapitre 1 State Estimation in Electric Power Systems.md",
     "2. Notions/Schéma avec 3 bus.md",
     "2. Notions/Chapitre 3 — Power Flow in Electric Power Systems.md",
@@ -232,7 +233,6 @@
     "Daily Notes/2023-11-06.md",
     "2. Notions/SATHV.md",
     "1. Source Notes/@Bourdon.etal2020.md",
-    "Meeting Notes/2023-11-06 - Suivi.md",
     "_templates/presentations/slides-cea",
     "_templates/presentations/resources-cea/deco-coin-blanc.png",
     "_templates/presentations/resources-cea/quote-rouge.png",
